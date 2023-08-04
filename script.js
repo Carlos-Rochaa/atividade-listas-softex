@@ -24,13 +24,13 @@ let coresFavoritas = [
   "cinza",
 ];
 
-console.log(nomes);
-console.log(idades);
-console.log(coresFavoritas);
+console.log("Nomes: ", nomes);
+console.log("Idades: ", idades);
+console.log("Cores favoritas: ", coresFavoritas);
 
 idades[2] = 33;
 coresFavoritas[5] = "azul-marinho";
 
-console.log(nomes);
-console.log(idades);
-console.log(coresFavoritas);
+console.log("Nomes alterados: ",nomes);
+console.log("Idades alteradas: ",idades);
+console.log("Cores alteradas: ",coresFavoritas);
